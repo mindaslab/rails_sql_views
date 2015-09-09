@@ -53,7 +53,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rake>, ["~> 10.1.0"])
       s.add_runtime_dependency(%q<rails>, ["~> 4.0.1"])
       s.add_development_dependency(%q<jeweler>, ["= 1.6.2"])
-      s.add_development_dependency(%q<flexmock>, ["= 0.9.0"])
+      s.add_development_dependency(%q<flexmock>, [">= 0", "= 0.9.0"])
       s.add_development_dependency(%q<test-unit>, ["= 2.3.0"])
       s.add_development_dependency(%q<mysql2>, ["= 0.3.10"])
       s.add_development_dependency(%q<pg>, ["= 0.11.0"])
@@ -91,4 +91,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<mysql2>, [">= 0"])
   end
 end
-
